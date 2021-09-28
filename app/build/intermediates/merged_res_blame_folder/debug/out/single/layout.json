@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/ricardo/Documents/AndroidProjects/AllTrailsPlaces/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/ricardo/Documents/AndroidProjects/AllTrailsPlaces/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/ricardo/Documents/AndroidProjects/AllTrailsPlaces/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_first.xml",
+        "source": "/Users/ricardo/Documents/AndroidProjects/AllTrailsPlaces/app/src/main/res/layout/fragment_first.xml"
+    },
+    {
+        "merged": "/Users/ricardo/Documents/AndroidProjects/AllTrailsPlaces/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/content_search_results.xml",
+        "source": "/Users/ricardo/Documents/AndroidProjects/AllTrailsPlaces/app/src/main/res/layout/content_search_results.xml"
+    },
+    {
+        "merged": "/Users/ricardo/Documents/AndroidProjects/AllTrailsPlaces/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_second.xml",
+        "source": "/Users/ricardo/Documents/AndroidProjects/AllTrailsPlaces/app/src/main/res/layout/fragment_second.xml"
+    },
+    {
+        "merged": "/Users/ricardo/Documents/AndroidProjects/AllTrailsPlaces/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_selected_place.xml",
+        "source": "/Users/ricardo/Documents/AndroidProjects/AllTrailsPlaces/app/src/main/res/layout/item_selected_place.xml"
+    },
+    {
+        "merged": "/Users/ricardo/Documents/AndroidProjects/AllTrailsPlaces/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_map_places.xml",
+        "source": "/Users/ricardo/Documents/AndroidProjects/AllTrailsPlaces/app/src/main/res/layout/fragment_map_places.xml"
+    },
+    {
+        "merged": "/Users/ricardo/Documents/AndroidProjects/AllTrailsPlaces/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_place.xml",
+        "source": "/Users/ricardo/Documents/AndroidProjects/AllTrailsPlaces/app/src/main/res/layout/item_place.xml"
+    },
+    {
+        "merged": "/Users/ricardo/Documents/AndroidProjects/AllTrailsPlaces/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_places.xml",
+        "source": "/Users/ricardo/Documents/AndroidProjects/AllTrailsPlaces/app/src/main/res/layout/fragment_places.xml"
+    },
+    {
+        "merged": "/Users/ricardo/Documents/AndroidProjects/AllTrailsPlaces/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_place_list.xml",
+        "source": "/Users/ricardo/Documents/AndroidProjects/AllTrailsPlaces/app/src/main/res/layout/fragment_place_list.xml"
+    }
+]

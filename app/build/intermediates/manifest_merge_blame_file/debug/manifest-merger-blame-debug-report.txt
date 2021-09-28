@@ -1,0 +1,146 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ricardocenteno.alltrailsplaces"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/ricardo/Documents/AndroidProjects/AllTrailsPlaces/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/ricardo/Documents/AndroidProjects/AllTrailsPlaces/app/src/main/AndroidManifest.xml
+10    <!--
+11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12         Google Maps Android API v2, but you must specify either coarse or fine
+13         location permissions for the "MyLocation" functionality.
+14    -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->/Users/ricardo/Documents/AndroidProjects/AllTrailsPlaces/app/src/main/AndroidManifest.xml:9:5-79
+15-->/Users/ricardo/Documents/AndroidProjects/AllTrailsPlaces/app/src/main/AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->/Users/ricardo/Documents/AndroidProjects/AllTrailsPlaces/app/src/main/AndroidManifest.xml:10:5-81
+16-->/Users/ricardo/Documents/AndroidProjects/AllTrailsPlaces/app/src/main/AndroidManifest.xml:10:22-78
+17
+18    <!-- Include required permissions for Google Maps API to run. -->
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[com.google.android.gms:play-services-maps:17.0.1] /Users/ricardo/.gradle/caches/transforms-3/bde009aeb784a1a11e4fecbe950ff1d2/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:23:5-79
+19-->[com.google.android.gms:play-services-maps:17.0.1] /Users/ricardo/.gradle/caches/transforms-3/bde009aeb784a1a11e4fecbe950ff1d2/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:23:22-76
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->[com.google.android.gms:play-services-maps:17.0.1] /Users/ricardo/.gradle/caches/transforms-3/bde009aeb784a1a11e4fecbe950ff1d2/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:24:5-67
+20-->[com.google.android.gms:play-services-maps:17.0.1] /Users/ricardo/.gradle/caches/transforms-3/bde009aeb784a1a11e4fecbe950ff1d2/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:24:22-64
+21
+22    <uses-feature
+22-->[com.google.android.gms:play-services-maps:17.0.1] /Users/ricardo/.gradle/caches/transforms-3/bde009aeb784a1a11e4fecbe950ff1d2/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:26:5-28:35
+23        android:glEsVersion="0x00020000"
+23-->[com.google.android.gms:play-services-maps:17.0.1] /Users/ricardo/.gradle/caches/transforms-3/bde009aeb784a1a11e4fecbe950ff1d2/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:27:9-41
+24        android:required="true" />
+24-->[com.google.android.gms:play-services-maps:17.0.1] /Users/ricardo/.gradle/caches/transforms-3/bde009aeb784a1a11e4fecbe950ff1d2/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:28:9-32
+25
+26    <queries>
+26-->[com.google.android.gms:play-services-maps:17.0.1] /Users/ricardo/.gradle/caches/transforms-3/bde009aeb784a1a11e4fecbe950ff1d2/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:30:5-34:15
+27
+28        <!-- Needs to be explicitly declared on Android R+ -->
+29        <package android:name="com.google.android.apps.maps" />
+29-->[com.google.android.gms:play-services-maps:17.0.1] /Users/ricardo/.gradle/caches/transforms-3/bde009aeb784a1a11e4fecbe950ff1d2/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:33:9-64
+29-->[com.google.android.gms:play-services-maps:17.0.1] /Users/ricardo/.gradle/caches/transforms-3/bde009aeb784a1a11e4fecbe950ff1d2/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:33:18-61
+30    </queries>
+31
+32    <application
+32-->/Users/ricardo/Documents/AndroidProjects/AllTrailsPlaces/app/src/main/AndroidManifest.xml:12:5-45:19
+33        android:name="com.ricardocenteno.alltrailsplaces.BaseApplication"
+33-->/Users/ricardo/Documents/AndroidProjects/AllTrailsPlaces/app/src/main/AndroidManifest.xml:13:9-40
+34        android:allowBackup="true"
+34-->/Users/ricardo/Documents/AndroidProjects/AllTrailsPlaces/app/src/main/AndroidManifest.xml:14:9-35
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.6.0] /Users/ricardo/.gradle/caches/transforms-3/93e3a97ab02553cbf4bf4b2ce2d07fff/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+36        android:debuggable="true"
+37        android:fullBackupContent="true"
+37-->/Users/ricardo/Documents/AndroidProjects/AllTrailsPlaces/app/src/main/AndroidManifest.xml:15:9-41
+38        android:icon="@mipmap/ic_launcher"
+38-->/Users/ricardo/Documents/AndroidProjects/AllTrailsPlaces/app/src/main/AndroidManifest.xml:16:9-43
+39        android:label="@string/app_name"
+39-->/Users/ricardo/Documents/AndroidProjects/AllTrailsPlaces/app/src/main/AndroidManifest.xml:17:9-41
+40        android:roundIcon="@mipmap/ic_launcher_round"
+40-->/Users/ricardo/Documents/AndroidProjects/AllTrailsPlaces/app/src/main/AndroidManifest.xml:18:9-54
+41        android:supportsRtl="true"
+41-->/Users/ricardo/Documents/AndroidProjects/AllTrailsPlaces/app/src/main/AndroidManifest.xml:19:9-35
+42        android:testOnly="true"
+43        android:theme="@style/Theme.AllTrailsPlaces" >
+43-->/Users/ricardo/Documents/AndroidProjects/AllTrailsPlaces/app/src/main/AndroidManifest.xml:20:9-53
+44
+45        <!--
+46             The API key for Google Maps-based APIs is defined as a string resource.
+47             (See the file "res/values/google_maps_api.xml").
+48             Note that the API key is linked to the encryption key used to sign the APK.
+49             You need a different API key for each encryption key, including the release key that is used to
+50             sign the APK for publishing.
+51             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+52        -->
+53        <meta-data
+53-->/Users/ricardo/Documents/AndroidProjects/AllTrailsPlaces/app/src/main/AndroidManifest.xml:29:9-31:55
+54            android:name="com.google.android.geo.API_KEY"
+54-->/Users/ricardo/Documents/AndroidProjects/AllTrailsPlaces/app/src/main/AndroidManifest.xml:30:13-58
+55            android:value="@string/google_maps_key" />
+55-->/Users/ricardo/Documents/AndroidProjects/AllTrailsPlaces/app/src/main/AndroidManifest.xml:31:13-52
+56
+57        <activity
+57-->/Users/ricardo/Documents/AndroidProjects/AllTrailsPlaces/app/src/main/AndroidManifest.xml:33:9-44:20
+58            android:name="com.ricardocenteno.alltrailsplaces.view.activities.MainActivity"
+58-->/Users/ricardo/Documents/AndroidProjects/AllTrailsPlaces/app/src/main/AndroidManifest.xml:34:13-57
+59            android:exported="true" >
+59-->/Users/ricardo/Documents/AndroidProjects/AllTrailsPlaces/app/src/main/AndroidManifest.xml:35:13-36
+60            <intent-filter>
+60-->/Users/ricardo/Documents/AndroidProjects/AllTrailsPlaces/app/src/main/AndroidManifest.xml:36:13-39:29
+61                <action android:name="android.intent.action.MAIN" />
+61-->/Users/ricardo/Documents/AndroidProjects/AllTrailsPlaces/app/src/main/AndroidManifest.xml:37:17-69
+61-->/Users/ricardo/Documents/AndroidProjects/AllTrailsPlaces/app/src/main/AndroidManifest.xml:37:25-66
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->/Users/ricardo/Documents/AndroidProjects/AllTrailsPlaces/app/src/main/AndroidManifest.xml:38:17-77
+63-->/Users/ricardo/Documents/AndroidProjects/AllTrailsPlaces/app/src/main/AndroidManifest.xml:38:27-74
+64            </intent-filter>
+65
+66            <meta-data
+66-->/Users/ricardo/Documents/AndroidProjects/AllTrailsPlaces/app/src/main/AndroidManifest.xml:41:13-43:54
+67                android:name="android.app.searchable"
+67-->/Users/ricardo/Documents/AndroidProjects/AllTrailsPlaces/app/src/main/AndroidManifest.xml:42:17-54
+68                android:resource="@xml/searchable" />
+68-->/Users/ricardo/Documents/AndroidProjects/AllTrailsPlaces/app/src/main/AndroidManifest.xml:43:17-51
+69        </activity>
+70        <!-- Needs to be explicitly declared on P+ -->
+71        <uses-library
+71-->[com.google.android.gms:play-services-maps:17.0.1] /Users/ricardo/.gradle/caches/transforms-3/bde009aeb784a1a11e4fecbe950ff1d2/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:39:9-41:40
+72            android:name="org.apache.http.legacy"
+72-->[com.google.android.gms:play-services-maps:17.0.1] /Users/ricardo/.gradle/caches/transforms-3/bde009aeb784a1a11e4fecbe950ff1d2/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:40:13-50
+73            android:required="false" />
+73-->[com.google.android.gms:play-services-maps:17.0.1] /Users/ricardo/.gradle/caches/transforms-3/bde009aeb784a1a11e4fecbe950ff1d2/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:41:13-37
+74
+75        <activity
+75-->[com.google.android.gms:play-services-base:17.5.0] /Users/ricardo/.gradle/caches/transforms-3/20318eeaa7f4f4259c76f8b6a7bcb634/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+76            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+76-->[com.google.android.gms:play-services-base:17.5.0] /Users/ricardo/.gradle/caches/transforms-3/20318eeaa7f4f4259c76f8b6a7bcb634/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+77            android:exported="false"
+77-->[com.google.android.gms:play-services-base:17.5.0] /Users/ricardo/.gradle/caches/transforms-3/20318eeaa7f4f4259c76f8b6a7bcb634/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+78            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+78-->[com.google.android.gms:play-services-base:17.5.0] /Users/ricardo/.gradle/caches/transforms-3/20318eeaa7f4f4259c76f8b6a7bcb634/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+79
+80        <meta-data
+80-->[com.google.android.gms:play-services-basement:17.5.0] /Users/ricardo/.gradle/caches/transforms-3/b15d7c4acf620d85a8d631c25a3d74f2/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+81            android:name="com.google.android.gms.version"
+81-->[com.google.android.gms:play-services-basement:17.5.0] /Users/ricardo/.gradle/caches/transforms-3/b15d7c4acf620d85a8d631c25a3d74f2/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:24:13-58
+82            android:value="@integer/google_play_services_version" />
+82-->[com.google.android.gms:play-services-basement:17.5.0] /Users/ricardo/.gradle/caches/transforms-3/b15d7c4acf620d85a8d631c25a3d74f2/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:25:13-66
+83
+84        <provider
+84-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/ricardo/.gradle/caches/transforms-3/fbcbbc962d4787fe40892c18e1f986d7/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+85            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+85-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/ricardo/.gradle/caches/transforms-3/fbcbbc962d4787fe40892c18e1f986d7/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+86            android:authorities="com.ricardocenteno.alltrailsplaces.lifecycle-process"
+86-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/ricardo/.gradle/caches/transforms-3/fbcbbc962d4787fe40892c18e1f986d7/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+87            android:exported="false"
+87-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/ricardo/.gradle/caches/transforms-3/fbcbbc962d4787fe40892c18e1f986d7/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+88            android:multiprocess="true" />
+88-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/ricardo/.gradle/caches/transforms-3/fbcbbc962d4787fe40892c18e1f986d7/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+89    </application>
+90
+91</manifest>
