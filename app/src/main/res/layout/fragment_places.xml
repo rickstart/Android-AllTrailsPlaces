@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:bind="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".view.fragments.PlacesFragment">
+    <data>
+        <variable
+            name="fragment"
+            type="com.ricardocenteno.alltrailsplaces.view.fragments.PlacesFragment" />
+        <variable
+            name="viewModel"
+            type="com.ricardocenteno.alltrailsplaces.viewmodels.PlacesViewModel" />
+        <import type="com.ricardocenteno.alltrailsplaces.view.fragments.PlacesFragment.PageState"/>
+        <import type="android.view.View"/>
+    </data>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/mapPlaces"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="@{fragment.pageState == PageState.MAP ? View.VISIBLE : View.GONE}"
+            android:name="com.ricardocenteno.alltrailsplaces.view.fragments.MapPlacesFragment"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/listPlaces"
+            android:visibility="@{fragment.pageState == PageState.LIST ? View.VISIBLE : View.GONE}"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:name="com.ricardocenteno.alltrailsplaces.view.fragments.PlaceListFragment"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <Button
+            android:id="@+id/btnView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            bind:layout_constraintBottom_toTopOf="@+id/layoutPlace"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:text="@{fragment.pageState == PageState.MAP ? @string/list : @string/map}"
+            android:drawableLeft="@{fragment.pageState == PageState.MAP ? @drawable/ic_list : @drawable/ic_map}"
+            android:drawableTint="@color/white"
+            android:onClick="@{() -> fragment.setPageState()}"
+            tools:text="List"/>
+
+        <FrameLayout
+            android:id="@+id/layoutPlace"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+            <include
+                layout="@layout/item_selected_place"
+                android:visibility="@{fragment.pageState == PageState.MAP &amp;&amp; viewModel.placeSelected != null ? View.VISIBLE : View.GONE}"
+                app:place="@{viewModel.placeSelected}"/>
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
