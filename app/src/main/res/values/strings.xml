@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AllTrails Food</string>
+    <string name="title_activity_main">Restaurants</string>
+    <string name="location_access_required">Location access is required to display the restaurants close to you.</string>
+    <string name="ok">OK</string>
+    <string name="location_permission_available">Location permission is available. Starting preview.</string>
+    <string name="location_permission_granted">Location permission was granted. Starting preview.</string>
+    <string name="location_permission_denied">Location permission request was denied.</string>
+    <string name="allow">Allow</string>
+    <string name="list">List</string>
+    <string name="map">Map</string>
+    <string name="search_title">Search restaurants</string>
+    <string name="search_hint">Search restaurants near to you</string>
+    <string name="title_activity_search_results">SearchResultsActivity</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
